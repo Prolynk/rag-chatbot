@@ -4,6 +4,10 @@ import os
 
 # Add src folder to path so we can import our modules
 sys.path.append(os.path.join(os.path.dirname(__file__), "src"))
+# Inject Streamlit secrets into environment variables for cloud deployment
+import os
+if "OPENAI_API_KEY" in st.secrets:
+    os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 
 from chain import build_chain
 from logger import init_db, log_query, log_feedback
