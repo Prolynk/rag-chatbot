@@ -1,0 +1,17 @@
+# Virtual environment
+venv/
+
+# API keys - never expose these
+.env
+
+# ChromaDB stored data
+vectorstore/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# OS junk files
+.DS_Store
+Thumbs.db
