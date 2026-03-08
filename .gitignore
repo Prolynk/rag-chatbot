@@ -1,4 +1,4 @@
-# Virtual environment
+xxx# Virtual environment
 venv/
 
 # API keys - never expose these
@@ -14,4 +14,4 @@ __pycache__/
 
 # OS junk files
 .DS_Store
-Thumbs.db
+Thumbs.db.streamlit/secrets.toml
