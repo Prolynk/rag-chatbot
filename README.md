@@ -14,7 +14,7 @@ A production-grade retrieval-augmented generation (RAG) chatbot built with LangC
 
 | Tool | Purpose |
 |---|---|
-| LangChain v0.3+ | RAG pipeline and LCEL chain |
+| LangChain v1.x | RAG pipeline and LCEL chain |
 | ChromaDB | Vector database for document embeddings |
 | OpenAI GPT-4o-mini | Response generation |
 | OpenAI text-embedding-3-small | Document and query embeddings |
